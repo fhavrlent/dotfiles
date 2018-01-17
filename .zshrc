@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
 source "/usr/local/opt/nvm/nvm.sh"
-SHELL_SCRIPTS_PATH="/Users/$USER/Documents/scripts"        
+SHELL_SCRIPTS_PATH="/Users/$USER/repos/scripts"        
 export PATH="$PATH:$SHELL_SCRIPTS_PATH"
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/$USER/.oh-my-zsh

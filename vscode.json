@@ -4,7 +4,7 @@
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Monokai Dimmed",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
@@ -14,10 +14,8 @@
   },
   "editor.tabCompletion": true,
   "editor.snippetSuggestions": "top",
-  "window.zoomLevel": 0,
   "git.autofetch": true,
   "files.useExperimentalFileWatcher": true,
-  "phpfmt.indent_with_space": 2,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code"
+  "editor.fontFamily": "Fira Code",
 }
