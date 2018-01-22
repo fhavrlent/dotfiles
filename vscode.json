@@ -17,5 +17,5 @@
   "git.autofetch": true,
   "files.useExperimentalFileWatcher": true,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code"
 }
