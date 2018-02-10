@@ -3,7 +3,6 @@
   "telemetry.enableCrashReporter": false,
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Monokai Dimmed",
   "editor.fontSize": 14,
@@ -18,5 +17,17 @@
   "files.useExperimentalFileWatcher": true,
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "prettier.eslintIntegration": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
 }
