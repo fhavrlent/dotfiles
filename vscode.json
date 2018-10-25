@@ -5,7 +5,6 @@
   "prettier.singleQuote": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Monokai Dimmed",
-  "editor.fontSize": 14,
   "editor.tabSize": 2,
   "clock.dateFormat": "HH:MM",
   "files.associations": {
@@ -31,5 +30,15 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "gitlens.keymap": "chorded"
+  "gitlens.keymap": "chorded",
+  "gitlens.historyExplorer.enabled": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "markdown"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 14,
+  "window.zoomLevel": 0,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.trailingComma": "all"
 }

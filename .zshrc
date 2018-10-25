@@ -91,7 +91,9 @@ DEFAULT_USER="$USER"
 
 # Get the latest changes on master pulled down locally
 # and then rebase them into/onto the current branch
-
+prompt_dir() {
+  prompt_segment blue black '%2~'
+}
 
 
 
