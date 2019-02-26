@@ -10,7 +10,7 @@
   "files.associations": {
     "*.js": "javascriptreact"
   },
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
   "git.autofetch": true,
   "files.useExperimentalFileWatcher": true,
@@ -31,11 +31,7 @@
     "suppressWelcomeNotice": true
   },
   "gitlens.keymap": "chorded",
-  "gitlens.historyExplorer.enabled": true,
-  "prettier.disableLanguages": [
-    "vue",
-    "markdown"
-  ],
+  "prettier.disableLanguages": ["vue", "markdown"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontSize": 14,
   "window.zoomLevel": 0,

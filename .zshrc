@@ -1,11 +1,19 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# NVM 
 export NVM_DIR="$HOME/.nvm"
-source "/usr/local/opt/nvm/nvm.sh"
-SHELL_SCRIPTS_PATH="/Users/$USER/repos/scripts"        
+source "$NVM_DIR/nvm.sh"
+
+# Custom shell scripts
+SHELL_SCRIPTS_PATH="$HOME/repos/scripts"        
 export PATH="$PATH:$SHELL_SCRIPTS_PATH"
+
+ACCENTURE_SCRIPTS_PATH="$HOME/repos/accenture"
+export PATH="$PATH:$ACCENTURE_SCRIPTS_PATH"
+
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/$USER/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -56,7 +64,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
 # User configuration
 
@@ -95,5 +103,9 @@ prompt_dir() {
   prompt_segment blue black '%2~'
 }
 
-
+# Go development
+export GOPATH=/Users/fhavrlent/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
