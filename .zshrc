@@ -82,8 +82,7 @@ export EDITOR='code'
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-gpgconf --launch gpg-agent
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
