@@ -4,7 +4,6 @@
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Monokai Dimmed",
   "editor.tabSize": 2,
   "clock.dateFormat": "HH:MM",
   "files.associations": {
@@ -40,25 +39,8 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "yaml.schemas": {
-    "file:///Users/fhavrlent/.vscode/extensions/atlassian.atlascode-2.4.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "atlascode.jira.jqlList": [
-    {
-      "id": "cf70649d-732d-44a0-bc1d-a752e343673b",
-      "enabled": true,
-      "name": "My jira.ableneo.com Issues",
-      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
-      "siteId": "jira.ableneo.com",
-      "monitor": true
-    }
-  ],
-  "atlascode.jira.lastCreateSiteAndProject": {
-    "siteId": "jira.ableneo.com",
-    "projectKey": "RESIDE"
-  },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -68,12 +50,16 @@
   },
   "todo-tree.tree.showScanModeButton": false,
   "gauge.recommendedSettings.options": "Apply & Reload",
-  "[gauge]": {
-    
-  },
+  "[gauge]": {},
   "eslint.alwaysShowStatus": true,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "atlascode.configurationTarget": "user"
+  "atlascode.configurationTarget": "user",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Monokai Dimmed"
 }

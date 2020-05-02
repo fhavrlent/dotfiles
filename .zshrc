@@ -101,3 +101,19 @@ prompt_dir() {
 }
 
 
+
+eval $(thefuck --alias)
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+
+
+#enable color output 
+export CLICOLOR=1
+export LSCOLORS=gx
+
+alias l='ls | lolcat' 
+alias la='ls -la | lolcat'
+alias ctig='tig | lolcat'
+
+# git
+
+alias mustache='git stash pop'
