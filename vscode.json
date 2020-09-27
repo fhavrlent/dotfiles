@@ -61,5 +61,15 @@
   },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Monokai Dimmed"
+  "workbench.colorTheme": "Monokai Dimmed",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "eslint.format.enable": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "openinmarked.apppath": "/Applications/Setapp/Marked.app",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false
 }

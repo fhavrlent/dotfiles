@@ -117,3 +117,6 @@ alias ctig='tig | lolcat'
 # git
 
 alias mustache='git stash pop'
+
+alias localGitConf='git config --local user.name "Filip Havrlent" && git config --local user.email "filip@havrlent.com"'export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
